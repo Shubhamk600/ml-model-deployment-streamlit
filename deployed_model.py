@@ -27,8 +27,8 @@ button = st.button("download model")
 if button:
     with st.spinner("downloading...please wait!"):
         download_dir(local_path, s3_prefix)
-    #st.success("✅ Download completed successfully!")
-    #st.toast("🎉 Model downloaded!", icon="✅")   # popup notification
+    #st.success(" Download completed successfully!")
+    #st.toast(" Model downloaded!", icon="")   # popup notification
     #st.balloons() 
 
 text = st.text_area("type your review here...","type...")
